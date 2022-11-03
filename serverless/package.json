@@ -1,0 +1,30 @@
+{
+    "name": "functions-salesforce",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "twilio-run",
+        "deploy": "twilio-run deploy",
+        "lint": "eslint --ext js src/",
+        "lint:fix": "npm run lint -- --fix"
+    },
+    "dependencies": {
+        "@segment/analytics-next": "1.43.0",
+        "analytics-node": "6.2.0",
+        "axios": "^0.26.1",
+        "google-libphonenumber": "^3.2.22",
+        "jsforce": "^1.10.1",
+        "twilio": "^3.67",
+        "twilio-flex-token-validator": "^1.5.6",
+        "util": "0.12.4"
+    },
+    "devDependencies": {
+        "eslint": "^8.0.0",
+        "eslint-config-twilio": "^2.0.0",
+        "twilio-run": "^3.2.2"
+    },
+    "engines": {
+        "node": "12"
+    }
+}

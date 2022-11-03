@@ -1,0 +1,29 @@
+{
+  "name": "segment-plugin",
+  "version": "0.0.6",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check",
+    "start:dev": "twilio flex:plugins:start --port=3002"
+  },
+  "dependencies": {
+    "@emotion/styled": "^11.1.5",
+    "@twilio-paste/core": "^14.1.0",
+    "@twilio-paste/design-tokens": "^7.3.0",
+    "@twilio-paste/icons": "^8.1.0",
+    "axios": "^0.24.0",
+    "lodash": "^4.17.21",
+    "prop-types": "^15.7.2",
+    "qs": "^6.11.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "uuid": "^8.3.2",
+    "@twilio/flex-plugin-scripts": "6.0.3"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "2.0.0-beta.2",
+    "@types/qs": "^6.9.7",
+    "typescript": "^4",
+    "react-test-renderer": "17.0.2"
+  }
+}
